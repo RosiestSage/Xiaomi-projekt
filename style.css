@@ -52,6 +52,7 @@
 
 body{
     color: white;
+    overflow-x: hidden;
 }
 
 .container{
@@ -59,15 +60,16 @@ body{
 }
 
 .tortenet{
-    background-image: url(Képek/indexhatterkep1.jpg);
+    background-image: url(Képek/feketemi);
     background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: .85;
+    background-position: center;
+    background-position-y: -100px;
+    opacity: .8;
     min-height: 1000px;
 }
 
 hr{
-    width: 300px;
+    width: 200px;
     margin: 0 auto 20px;
     border: none;
     height: 3px;
@@ -79,6 +81,9 @@ hr{
     --bs-body-bg: none;
     --bs-accordion-active-bg: none;
     --bs-accordion-active-color: none;
+    --bs-accordion-btn-color: white;
+    --bs-border-color: none;
+    --bs-body-color: white;
 }
 
 h1{
@@ -87,4 +92,29 @@ h1{
     font-size: 50px;
     color: white;
     opacity: 1.0;
+}
+
+ul{
+    list-style: none;
+}
+
+/* .gomb{
+    margin: 60px 0px 0px 200px ;
+} */
+
+.szoveg{
+    margin: 60px;
+}
+
+.button{
+    position: relative;
+    border-bottom: none;
+    width: 50px;
+   font-size: 30px;
+   transition-duration: .3s;
+}
+
+.button:hover{
+    transform: scale(150%);
+    transition-duration: .3s;
 }
