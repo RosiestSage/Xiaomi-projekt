@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar img{
     height: 80px;
     width: 150px;
@@ -21,8 +23,6 @@
 
 @media (max-width: 500px) {
     .navbar-brand{
-        padding: 0;
-        margin: -30px;
         position: absolute;
     }
     
@@ -31,15 +31,60 @@
     }
 
     .logo{
-        left: 10%;
+        position: absolute;
+        left: -8%;
+
     }
 
     .cim{
-        left: 43%;
+        left: 40%;
+
     }
 
     .hamburger{
         position: absolute;
         left: 83%;
     }
+
+}
+
+/* Html */
+
+body{
+    color: white;
+}
+
+.container{
+    position: relative;
+}
+
+.tortenet{
+    background-image: url(Képek/indexhatterkep1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .85;
+    min-height: 1000px;
+}
+
+hr{
+    width: 300px;
+    margin: 0 auto 20px;
+    border: none;
+    height: 3px;
+    border: 3px solid white;
+    opacity: .8;
+}
+
+.accordion{
+    --bs-body-bg: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: none;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    font-size: 50px;
+    color: white;
+    opacity: 1.0;
 }
