@@ -71,7 +71,9 @@
 
     .row {
         margin-right: 0;
+        margin: 0;
     }
+
 }
 
 @media (max-width: 1000px){
@@ -95,10 +97,10 @@ body{
     background-image: url(Képek/feketemi);
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: -100px;
+    background-position-y: -6vh;
     background-size: cover;
     opacity: .8;
-    min-height: 600px;
+    min-height: 650px;
 }
 
 hr{
@@ -115,7 +117,7 @@ hr{
 
 .termekek hr{
     border: 3px solid black;
-    width: 500px;
+    width: 50%;
 }
 
 
@@ -140,7 +142,7 @@ h1{
 }
 
 .termekek h1{
-    margin-top: -60px;
+    margin-top: 2%;
 }
 
 .button{
@@ -165,4 +167,14 @@ h1{
 
 #gombok{
     margin-left: 40%;
+}
+
+.card{
+    margin: 30px 10px 0 10px;
+    transition-duration: .3s;
+}
+
+.card:hover{
+    transform: scale(110%);
+    transition-duration: .3s;
 }
