@@ -2,7 +2,7 @@
 
 .navbar img{
     height: 80px;
-    width: 150px;
+    width: 80px;
 }
 
 .navbar{
@@ -25,19 +25,19 @@
     .navbar-brand{
         position: absolute;
     }
-    
+
     .navbar{
         min-height: 100px;
     }
 
     .logo{
         position: absolute;
-        left: -8%;
+        left: -2%;
 
     }
 
     .cim{
-        left: 40%;
+        left: 38%;
 
     }
 
@@ -68,9 +68,15 @@
         text-align: center;
         margin-left: .1%;
     }
-    
+
     .row {
         margin-right: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .cim {
+        margin-left: -5%;
     }
 }
 
@@ -96,13 +102,22 @@ body{
 }
 
 hr{
-    width: 200px;
     margin: 0 auto 20px;
     border: none;
     height: 3px;
-    border: 3px solid white;
     opacity: .8;
 }
+
+.tortenet hr{
+    border: 3px solid white;
+    width: 200px;
+}
+
+.termekek hr{
+    border: 3px solid black;
+    width: 500px;
+}
+
 
 .accordion{
     --bs-body-bg: none;
@@ -115,14 +130,17 @@ hr{
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 60px;
     font-size: 50px;
-    color: white;
     opacity: 1.0;
 }
 
-ul{
-    list-style: none;
+.tortenet h1{
+    padding-top: 60px;
+    color: white;
+}
+
+.termekek h1{
+    margin-top: -60px;
 }
 
 .button{
@@ -141,7 +159,8 @@ ul{
 
 .szoveg{
     text-align: center;
-    padding: 0 100px;
+    padding: 0 30px;
+    font-size: 20px;
 }
 
 #gombok{
