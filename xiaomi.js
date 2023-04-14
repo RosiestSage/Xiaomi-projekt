@@ -13,3 +13,4 @@ function gomb3() {
 function gomb4() {
     document.getElementById("szoveg").innerHTML = "2015 áprilisában a Xiaomi bejelentette, hogy két indiai e-kereskedelmi oldalon keresztül is elérhetővé teszi Mi készülékeit. 2015. április 23-án bejelentették, hogy bevezetik az indiai piacra a cég legújabb zászlóshajóját, az Mi 4i eszközt. 2015. június 30-án a Xiaomi a brazil piacra is belépett a helyben gyártott Redmi 2 eszközzel. "
 }
+
