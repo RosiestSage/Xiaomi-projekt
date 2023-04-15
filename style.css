@@ -85,6 +85,9 @@
         margin: 0;
     }
 
+    .navbar-collapse.show ul {
+        margin-top: 5vh;
+    }
 }
 
 @media (max-width: 1000px){
