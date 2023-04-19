@@ -55,7 +55,7 @@
 
     .hamburger{
         position: absolute;
-        left: 83%;
+        left: 80%;
 
     }
 
@@ -67,10 +67,18 @@
         display: inline;
     }
 
+    h1{
+        font-size: 30px !important;
+    }
+
     div .col-xs-3{
-        font-size: 20px;
         width: 60px;
-        margin-left: 7%;
+        margin: auto;
+        padding: 0;
+    }
+
+    p.button{
+        font-size: 25px !important;
     }
 
     #gombok{
@@ -82,9 +90,14 @@
         margin-left: .1%;
     }
 
+    #szoveg {
+        margin: 0 !important;
+    }
+
     .row {
         margin-right: 0;
         margin: 0;
+        padding: 0;
     }
 
     .navbar-collapse.show ul {
@@ -119,6 +132,10 @@
 @media (max-width: 1000px){
     .cim {
         margin-left: -5%;
+    }
+
+    #szoveg {
+        margin: 0 !important;
     }
 }
 
@@ -206,6 +223,10 @@ h1{
     text-align: center;
     padding: 0 30px;
     font-size: 20px;
+}
+
+#szoveg {
+    margin: 0 30% 0 30%;
 }
 
 #gombok{
@@ -298,7 +319,7 @@ h1{
 }
 
 .csik>div, .nemcsik>div{
-    padding: 0 0 80px 80px;
+    padding: 0 0 80px 150px;
 }
 
 .nemcsik .alahuzas{
@@ -311,4 +332,17 @@ h1{
 
 .arnyek {
     opacity: .8;
+}
+
+.rendeles{
+    color: black;
+}
+
+label, input, select {
+    margin-top: 20px !important;
+    text-align: center;
+}
+
+select  {
+    font-size: 20px;
 }
