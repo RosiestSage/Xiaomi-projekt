@@ -25,5 +25,5 @@ function gomb4() {
 // }
 
 function veves() {
-    alert("Üzenetét megkaptuk, remélem rövidesen segítséget tudunk nyújtani")
+    alert("Üzenetét megkaptuk, remélem rövidesen segítséget tudunk nyújtani!")
 }

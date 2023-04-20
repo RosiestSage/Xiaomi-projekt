@@ -61,7 +61,7 @@
 
     <div class="rendeles">
       <div class="rtelefonok">
-        <h1 class="text-center">Rendelés</h1>
+        <h1 class="text-center">Segítségkérés</h1>
         <hr>
       </div>
       <fieldset class="container rendelesc">
@@ -71,12 +71,6 @@
             <input class="col-xs-12 col-md-3 col-lg-3 col-xl-3" id="vezeteknev" type="text" width="50%">
             <label class="col-xs-12 col-md-2 col-lg-2 col-xl-2" for="keresztnev">Keresztnév:</label>
             <input class="col-xs-12 col-md-3 col-lg-3 col-xl-3" id="keresztnev" type="text" width="50%">
-          </div>
-
-          
-          <div class="row my-4">
-            <label class="col-xs-12 col-md-2 col-lg-2 col-xl-2" for="kartyaszam">Bankártya szám</label>
-            <input class="col-xs-12 col-md-6 col-lg-6 col-xl-6" type="number" id="kartyaszam" placeholder="XXXX/XXXX/XXXX/XXXX">
           </div>
           <div class="row my-4">
             <label class="col-xs-12 col-md-2 col-lg-2 col-xl-2" for="posta">Postázási cím</label>
@@ -90,25 +84,14 @@
             <label class="col-xs-12 col-md-2 col-lg-2 col-xl-2" for="telefon">Telefonszám:</label>
             <input class="col-xs-12 col-md-6 col-lg-6 col-xl-6" type="text" id="telefon" placeholder="+36 XX XXX XXXX">
           </div>
-
           <div class="row my-4">
-            <label class="col-xs-12 col-md-2 col-lg-2 col-xl-2" for="termek">Termék</label>
-            <select on class="col-xs-12 col-md-3 col-lg-3 col-xl-3 my-0" id="termek">
-                <option value="redmi">Redmi telefon</option>
-                <option value="xiaomi">Xiaomi Telefon</option>
-                <option value="füles">Füllhalgató</option>
-                <option value="tv">TV-k</option>
-                <option value="okosotthon">Okosotthon</option>
-            </select>
-            <label class="col-xs-6 col-md-1 col-lg-1 col-xl-1 ar">Ár:</label>
-            <p class="col-xs-6 col-md-2 col-lg-2 col-xl-2 mb-0" style="margin-top: 1.5%;"></p>
-            <label class="col-xs-6 col-md-2 col-lg-2 col-xl-2 ar">Szállítási költség:</label>
-            <p class="col-xs-6 col-md-1 col-lg-1 col-xl-1" style="margin-top: 1.5%;"></p>
-            <!-- TBC -->
+            <label for="telefon">Kérem fejtse ki problémáját:</label>
+            <textarea id="telefon" cols="15" rows="5"></textarea>
           </div>
 
+
           <div class="megrendeles">
-            <a href="rendeles.html" class="my-5 "><button type="button" onclick="veves()" class="btn btn-primary">Megrendelés</button></a>
+            <a href="rendeles.html" class="my-5 "><button type="button" onclick="veves()" class="btn btn-primary">Küldés</button></a>
           </div>
 
         </legend>

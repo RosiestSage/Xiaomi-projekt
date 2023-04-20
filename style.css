@@ -372,7 +372,7 @@ select  {
 }
 
 .rendelesc{
-    margin-left: 20%;
+    
 }
 
 .ar {
@@ -382,4 +382,8 @@ select  {
 .megrendeles{
     text-align: center;
     margin-right: 8%;
+}
+
+textarea {
+    resize: none;
 }
