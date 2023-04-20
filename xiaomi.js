@@ -25,5 +25,5 @@ function gomb4() {
 // }
 
 function veves() {
-    alert("Rendelésed megkaptuk, köszönjük vásárlásod!")
+    alert("Üzenetét megkaptuk, remélem rövidesen segítséget tudunk nyújtani")
 }
