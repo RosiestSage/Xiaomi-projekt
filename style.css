@@ -127,6 +127,25 @@
     .csik>div, .nemcsik>div{
         padding: 30px !important;
     }
+
+    input, select{
+        width: 99% !important;
+        margin: auto;
+    }
+
+    .rendelesc{
+        margin-left: 0;
+    }
+
+    fieldset{
+        margin: 0 !important;
+    }
+
+    .ar {
+        text-align: left !important;
+    }
+
+
 }
 
 @media (max-width: 1000px){
@@ -340,9 +359,27 @@ h1{
 
 label, input, select {
     margin-top: 20px !important;
-    text-align: center;
+
 }
 
 select  {
     font-size: 20px;
+}
+
+.rendeles>.rtelefonok hr{
+    border: 3px solid blue;
+    width: 20%;
+}
+
+.rendelesc{
+    margin-left: 20%;
+}
+
+.ar {
+    text-align: end;
+}
+
+.megrendeles{
+    text-align: center;
+    margin-right: 8%;
 }
