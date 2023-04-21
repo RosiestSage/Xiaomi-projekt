@@ -23,3 +23,7 @@ function gomb4() {
 //         document.getElementById('rtelefon').style.visibility = "hidden"
 //     }
 // }
+
+function veves() {
+    alert("Üzenetét megkaptuk, remélem rövidesen segítséget tudunk nyújtani!")
+}
