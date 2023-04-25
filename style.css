@@ -199,7 +199,10 @@ hr{
     z-index: 3;
 }
 
-
+.card-img-top{
+    height: 20vh;
+    object-fit: cover;
+}
 
 
 .accordion{
