@@ -1,9 +1,5 @@
 /* Navbar */
 
-body {
-    content: "width=device-width, initial-scale=1.0" !important;
-}
-
 .navbar img{
     height: 80px;
     width: 80px;
@@ -165,6 +161,11 @@ body {
 body{
     color: white;
     overflow-x: hidden;
+    content: "width=device-width, initial-scale=1.0" !important;
+}
+
+.row {
+    content: "width=device-width, initial-scale=1.0" !important;
 }
 
 .container{
