@@ -22,14 +22,7 @@
 .dropdown-item.active{
     color: rgb(255, 105, 0);
     font-weight: bold;
-}
-
-.dropdown-item{
-    transition: .5s;
-}
-
- .dropdown-item:hover {
-    transform: scale(105%);
+    --bs-dropdown-link-active-bg: none;
 }
 
 
