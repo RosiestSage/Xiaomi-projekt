@@ -5,6 +5,28 @@
     width: 80px;
 }
 
+.navbar-nav .nav-link.active{
+    color: rgb(255, 105, 0);
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+    transition: .3s;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(120%);
+}
+
+
+.dropdown-item.active{
+    color: rgb(255, 105, 0);
+    font-weight: bold;
+    --bs-dropdown-link-active-bg: none;
+}
+
+
+
 .navbar{
     padding: 0;
     box-shadow: 0 .3px 10px black;
