@@ -5,6 +5,35 @@
     width: 80px;
 }
 
+.navbar-nav .nav-link.active{
+    color: rgb(255, 105, 0);
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+    transition: .5s;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(120%);
+}
+
+
+.dropdown-item.active{
+    color: rgb(255, 105, 0);
+    font-weight: bold;
+}
+
+.dropdown-item{
+    transition: .5s;
+}
+
+ .dropdown-item:hover {
+    transform: scale(105%);
+}
+
+
+
 .navbar{
     padding: 0;
     box-shadow: 0 .3px 10px black;
